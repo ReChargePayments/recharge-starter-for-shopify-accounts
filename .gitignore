@@ -1,0 +1,29 @@
+# Environment Configuration
+.env
+extensions/customer-account/src/env.ts
+
+extensions/customer-account/shopify.extension.toml
+
+# Dependency directory
+node_modules
+
+# Test coverage directory
+coverage
+
+# Ignore Apple macOS Desktop Services Store
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# extensions build output
+extensions/*/build
+extensions/*/dist
+
+# Ignore shopify files created during app dev
+.shopify/*
+.shopify.lock
+
+scratch/
+shopify.app.toml

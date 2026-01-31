@@ -1,0 +1,12 @@
+{
+  "name": "recharge-starter-shopify-accounts",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@preact/signals": "^2.5.1",
+    "@rechargeapps/storefront-client": "^1.66.0",
+    "@shopify/ui-extensions": "^2026.01.x",
+    "preact": "^10.28.1"
+  }
+}
